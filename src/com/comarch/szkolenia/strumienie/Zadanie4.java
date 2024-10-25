@@ -15,5 +15,10 @@ public class Zadanie4 {
         list.add(new Employee(7,"Pawel", "Kowalski", 4800, "HIGH"));
         list.add(new Employee(8,"Patryk", "Malinowski", 4900, "MID"));
         list.add(new Employee(9,"Bogdan", "Kiepski", 5400, "HIGH"));
+
+        // Napisz strumień który wypisuje ID każdego pracownika średniego szczebla zarabiającego
+        // między 4000 - 5000 zmieniając przy okazji jego płacę na 4800 zł.
+
+        System.out.println(list);
     }
 }
